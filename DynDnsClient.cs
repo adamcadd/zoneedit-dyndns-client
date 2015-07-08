@@ -13,7 +13,7 @@ namespace DynDns
         private const int SLEEP_MS_OK = 60000;
         private const int SLEEP_MS_ERROR = 15 * 60000;
         //private const string IP_DETECT_PREFIX = "Current IP Address: ";
-        private const string IP_DETECT_URL = "https://dynamic.zoneedit.com/checkip.html";
+        private const string IP_DETECT_URL = "http://dynamic.zoneedit.com/checkip.html";
         private const string IP_UPDATE_URL = "https://dynamic.zoneedit.com/auth/dynamic.html?host={0}&dnsto={1}";
 
         private static string LogFile { get; set; }
